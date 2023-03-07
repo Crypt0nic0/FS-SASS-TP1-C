@@ -91,6 +91,11 @@ header .header-content h1 {
   font-size: 4rem;
   letter-spacing: 6px;
 }
+@media screen and (max-width: 700px) {
+  header .header-content h1 {
+    font-size: 2rem;
+  }
+}
 header .header-content p {
   margin: 40px auto 60px;
   font-style: italic;
@@ -138,6 +143,11 @@ header nav .nav-left li {
   align-items: center;
   cursor: pointer;
 }
+@media screen and (max-width: 700px) {
+  header nav .nav-left li {
+    font-size: 0.5rem;
+  }
+}
 header nav .nav-left li:first-child {
   background: rgb(243, 243, 243);
   color: rgb(17, 17, 17);
@@ -153,6 +163,11 @@ header nav .nav-right {
   max-width: 300px;
   justify-content: space-around;
   margin-right: 10px;
+}
+@media screen and (max-width: 700px) {
+  header nav .nav-right {
+    display: none;
+  }
 }
 header nav .nav-right li {
   transition: 0.15s;
